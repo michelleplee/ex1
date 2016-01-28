@@ -3,7 +3,8 @@
 body{max-width: 800px;
     margin-left:auto;
     margin-right: auto;
-    margin-top:8%
+    margin-top:8%;
+   height: 700px;
 }
 
 header {
@@ -62,20 +63,29 @@ a:hover, footer a:hover { text-decoration: underline;}
 
 p, h5 {font-family: avenir; margin-top:1%; }
 
-footer { position:absolute; 
+footer { position:fixed;
 
     margin-left:auto;
     margin-right: auto;
     text-align: center;
-    bottom: 0;
+    bottom: 0px;
+    background:white;
     width:800px;
     height:60px;
     
     font-family: avenir;
-    margin-top: 20px;
+
     line-height: 25px
     
     
+}
+
+article{
+    padding-bottom: 40px;
+}
+
+article p{ margin-top: 30px;
+    margin-bottom:50px;
 }
 
 
